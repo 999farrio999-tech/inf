@@ -14,3 +14,11 @@ sudo gpasswd -А <Имя_пользователя><имя_группы>
 u-bit - Назначание только файлам
 g-bit - Назначание и файлам, и папкам
 t-bit - Назначание только папкам
+Установка u-bit
+sudo chmod u+s
+Установка g-bit
+sudo chmod g+s
+Установка g-bit
+sudo chmod g+sudu
+Установка t-bit
+sudo chmod o+t
